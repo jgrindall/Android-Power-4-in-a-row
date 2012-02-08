@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+	
+>
+
+
+<ImageView 
+		android:src="@drawable/wood"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scaleType="fitXY"
+	
+	/>
+	
+
+		 
+	
+	<RelativeLayout
+	 android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:gravity="center"
+    android:layout_gravity="center"
+	android:padding="10dp"
+	>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:padding="20dp"
+    >
+
+		
+	
+	<TextView 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		style="@style/LabelText"
+		android:text="@string/msg_sound"
+		android:gravity="center"
+    android:layout_gravity="center"
+    android:paddingBottom="30dp"
+    
+		/>
+			
+	 <RadioGroup
+	        android:id="@+id/radio_sound"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         >
+	 
+	        <RadioButton
+	            android:id="@+id/radio_sound0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             style="@style/MyRadio"
+	            android:text="Sound on" 
+	            android:checked="true" />
+	 
+	        <RadioButton
+	            android:id="@+id/radio_sound1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             style="@style/MyRadio"
+	            android:text="Sound off" />
+	            
+	           
+	 
+	    </RadioGroup>
+	
+	 
+	
+	</LinearLayout>
+	
+</RelativeLayout>
+	
+	 	
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+   
+    
+    >
+	 
+	 <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    
+    
+    >
+	 
+	 
+	 <Button
+        android:id="@+id/done_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_gravity="bottom"
+        android:background="@drawable/greenbutton"
+		style="@style/MyButtonSmall"
+        />
+	
+</LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+</FrameLayout>
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="MyButton">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">2dp</item>
+	    <item name="android:textSize">20dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+	<style name="MyButtonMed">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">2dp</item>
+	    <item name="android:textSize">15dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:padding">3dp</item>
+	</style>
+	
+	
+	<style name="MyButtonSmall">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">2dp</item>
+	    <item name="android:textSize">12dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:padding">2dp</item>
+	</style>
+    <style name="MyButtonVSmall">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">1dp</item>
+	    <item name="android:textSize">10dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:padding">1dp</item>
+	</style>
+   
+    
+    
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#034F70</item>
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:padding">4dp</item>
+         <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    
+    <style name="LabelText"  parent="@android:style/TextAppearance.Medium">
+         <item name="android:textColor">#FFF</item>
+         <item name="android:textSize">22sp</item>
+
+    </style>
+    
+    
+     <style name="LabelTextMed"  parent="@android:style/TextAppearance.Medium">
+         <item name="android:textColor">#FFF</item>
+         <item name="android:textSize">14sp</item>
+
+    </style>
+    
+    
+     <style name="LabelTextSmall"  parent="@android:style/TextAppearance.Medium">
+         <item name="android:textColor">#FFF</item>
+         <item name="android:textSize">10sp</item>
+
+    </style>
+    
+    
+    <style name="NormalText"  parent="@android:style/TextAppearance.Medium">
+         <item name="android:textColor">#FFF</item>
+         <item name="android:textSize">18sp</item>
+
+    </style>
+    
+    
+    <style name="NormalTextSmall"  parent="@android:style/TextAppearance.Medium">
+         <item name="android:textColor">#FFF</item>
+         <item name="android:textSize">11sp</item>
+
+    </style>
+    
+    
+    <style name="MyRadio" parent="@android:style/Widget.CompoundButton.RadioButton">
+  	 	<item name="android:button">@drawable/radio</item>
+  	 	<item name="android:paddingLeft">60dp</item>
+  	 	<item name="android:paddingBottom">12dp</item>
+  	 	<item name="android:paddingTop">12dp</item>
+	</style>
+    
+      <style name="MyRadioSmall" parent="@android:style/Widget.CompoundButton.RadioButton">
+  	 	<item name="android:button">@drawable/radio</item>
+  	 	<item name="android:paddingLeft">26dp</item>
+  	 	<item name="android:paddingBottom">1dp</item>
+  	 	<item name="android:paddingTop">1dp</item>
+  	 	<item name="android:textSize">10dp</item>
+	</style>
+    
+   
+    
+</resources>
+

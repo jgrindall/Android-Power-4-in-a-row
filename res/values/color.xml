@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="wood_light">#B68E53</color>
+	<color name="wood_dark">#502D17</color>
+	<color name="wood_medlight">#926B3D</color>
+	<color name="wood_meddark">#6A4626</color>
+	<color name="link">#0099FF</color>
+</resources>
+
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+>
+
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="-5dp"
+			android:layout_marginBottom="-5dp"
+			android:layout_alignParentBottom="true"
+			/> 
+		
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="35dp"
+			android:layout_marginBottom="7dp"
+			android:layout_alignParentBottom="true"
+			
+			/> 
+		
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="70dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="0dp"/> 
+		
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="10dp"
+			android:layout_marginBottom="40dp"
+			android:layout_alignParentBottom="true"/> 
+		
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="80dp"
+			android:layout_marginBottom="32dp"
+			android:layout_alignParentBottom="true"/> 
+		
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="-9dp"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="200dp"/>	
+
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="60dp"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="100dp"/>	
+
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="70dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="400dp"/>	
+
+<ImageView android:src="@drawable/red" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="60dp"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="260dp"/>	
+		
+		
+		
+		
+		
+		
+		
+	
+<ImageView android:src="@drawable/green" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="4dp" android:id="@+id/imageView3"/>
+			
+<ImageView android:src="@drawable/green" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="50dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="0dp"/>
+			
+<ImageView android:src="@drawable/green" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginRight="-4dp"
+			android:layout_marginBottom="40dp"/>
+			
+<ImageView android:src="@drawable/green" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="200dp"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="120dp"/>
+			
+<ImageView android:src="@drawable/green" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="65dp"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="290dp"/>
+		
+<ImageView android:src="@drawable/green" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="-16dp"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="-10dp" android:id="@+id/imageView2"/>
+			
+			
+<ImageView android:src="@drawable/power" 
+		android:layout_below="@+id/imageView2" 
+		android:layout_alignRight="@+id/imageView3"
+		android:layout_width="32dp" android:layout_height="32dp"
+		/>
+		
+
+</RelativeLayout>
+

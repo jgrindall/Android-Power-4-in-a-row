@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Power 4-in-a-row</string>
+    <string name="msg_youwin">Well done, you win !</string>
+    <string name="msg_p1win">Player 1 has won !</string>
+    <string name="msg_p2win">Player 2 has won !</string>
+    <string name="msg_youlose">Sorry, you have lost !</string>
+    <string name="msg_draw">Uh oh, it\'s a draw!</string>
+    <string name="msg_players">Choose your game</string>
+    <string name="msg_diff">Choose your options</string>
+    <string name="msg_sound">Settings</string>
+    <string name="msg_help">Help</string>
+    <string name="sureleave">Are you sure you want to quit this game?</string>
+    <string name="surerestart">Are you sure you want to restart the game?</string>
+    <string name="all_help">Take it in turns to drop pieces into a column of your choice. The winner is the player who makes a line of four
+    continuous pieces.\n\nLines can be horizontal, vertical or diagonal. The yellow powerball will appear at random and can be used by either side.
+    \n\nEmail bugs/suggestions to:\njohn.grindall@gmail.com
+    
+    </string>
+   
+    
+</resources>

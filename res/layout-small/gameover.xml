@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:orientation="vertical"
+ android:padding="1dp"
+ android:layout_gravity="center"
+ android:gravity="center"
+ 
+ > 
+ 
+  <TextView
+ 
+ android:id="@+id/gameover_msg"
+ style="@style/LabelTextMed"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:gravity="center_vertical|center_horizontal"
+ 
+ 
+ />
+ 
+ 
+
+<TableLayout
+	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+>
+
+
+<TableRow>
+ 
+ <Button android:id="@+id/over_restart"
+ 	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+ 	android:background="@drawable/greenbutton"
+	style="@style/MyButtonVSmall"
+	android:layout_weight="1"
+	android:minWidth="100dp"
+ 	android:text="Restart" />
+
+
+ <Button android:id="@+id/over_undo"
+ 	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+ 	android:background="@drawable/greenbutton"
+	style="@style/MyButtonVSmall"
+	android:layout_weight="1"
+	android:minWidth="100dp"
+ 	android:text="Undo last move" />
+ 	
+ 	
+ 	
+</TableRow>
+ 
+ 
+ <TableRow>
+ 
+
+ 
+ 
+
+ <Button android:id="@+id/over_newgame"
+ 	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content"
+ 	android:background="@drawable/greenbutton"
+	style="@style/MyButtonVSmall"
+	android:layout_weight="1"
+	android:minWidth="100dp"
+ 	android:text="New game" />
+ 	
+ 	
+ 	 <Button android:id="@+id/over_close"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:background="@drawable/greenbutton"
+		style="@style/MyButtonVSmall"
+		android:layout_weight="1"
+		android:minWidth="100dp"
+	 	android:text="Close" />
+	 	
+	 	
+</TableRow>
+
+</TableLayout>
+
+ </LinearLayout>
+ 
+
+

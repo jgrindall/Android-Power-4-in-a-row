@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:orientation="vertical" android:padding="7dp"
+ >
+
+ 
+ <TextView
+ 
+ android:id="@+id/leave_msg"
+ style="@style/LabelText"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:gravity="center_vertical|center_horizontal"
+ 
+ 
+ />
+ 
+	 <LinearLayout
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal" 
+	 android:padding="10dp"
+	 >
+
+ 
+ <Button android:id="@+id/leave_quit"
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+ 	android:background="@drawable/greenbutton"
+	style="@style/MyButtonMed"
+	android:layout_weight="1"
+ 	android:text="Quit game" />
+
+
+ <Button android:id="@+id/leave_cancel"
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+ 	android:layout_weight="1"
+ 	android:background="@drawable/greenbutton"
+	style="@style/MyButtonMed"
+ 	android:text="Cancel" />
+
+ </LinearLayout>
+
+ 
+</LinearLayout>

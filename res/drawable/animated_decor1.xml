@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+<item android:drawable="@drawable/decor_0" android:duration="250" />
+<item android:drawable="@drawable/decor_1" android:duration="150" />
+<item android:drawable="@drawable/decor_2" android:duration="150" />
+<item android:drawable="@drawable/decor_3" android:duration="150" />
+<item android:drawable="@drawable/decor_4" android:duration="150" />
+<item android:drawable="@drawable/decor_5" android:duration="2000" />
+
+</animation-list>

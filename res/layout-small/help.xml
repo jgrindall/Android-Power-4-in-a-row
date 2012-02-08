@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+>
+
+
+<ImageView 
+		android:src="@drawable/wood"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scaleType="fitXY"
+	
+	/>
+	
+
+		 
+	
+<RelativeLayout
+	 android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="10dp"
+	>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:layout_centerInParent="true"
+    >
+
+	
+	<TextView 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		style="@style/LabelTextSmall"
+		android:text="@string/msg_help"
+		android:paddingBottom="10dp"
+		/>
+	
+	
+	
+	
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/all_help"
+		style="@style/NormalTextSmall"
+		android:id="@+id/help_text"
+		android:paddingBottom="20dp"
+		android:autoLink="web|email"
+		
+	/>
+	
+	
+	
+	<ImageView android:src="@drawable/boarddemo"
+	
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:scaleType="centerInside"
+		/>
+		
+	
+		
+   
+	
+</LinearLayout>
+
+</RelativeLayout>
+
+</FrameLayout>
+
